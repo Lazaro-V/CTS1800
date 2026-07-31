@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KidCode | Join Us</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header>
+    <div class="header-container">
+      <a href="index.html" class="brand-logo">🤖 KidCode <span class="brand-badge">Ages 5-7</span></a>
+      <nav aria-label="Main Navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="learn.html">Lessons</a></li>
+          <li><a href="games.html">Games</a></li>
+          <li><a href="parent-zone.html">Parents</a></li>
+          <li><a href="contact.html" class="active" aria-current="page">Join Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="form-card">
+      <h2>Join the KidCode Club! 🌟</h2>
+      <p style="margin-bottom: 1.5rem; color: #64748B;">Get free weekly printable coding worksheets and puzzle sheets.</p>
+
+      <form id="kidcode-form">
+        <div class="form-group">
+          <label for="child-name">Little Coder's Name:</label>
+          <input type="text" id="child-name" name="child-name" required placeholder="e.g., Alex">
+        </div>
+
+        <div class="form-group">
+          <label for="parent-email">Parent or Educator Email:</label>
+          <input type="email" id="parent-email" name="parent-email" required placeholder="parent@example.com">
+        </div>
+
+        <div class="form-group">
+          <label for="avatar">Select Mascot:</label>
+          <select id="avatar" name="avatar">
+            <option>Beep Boop the Robot 🤖</option>
+            <option>Barnaby the Dog 🐶</option>
+            <option>Freddie the Frog 🐸</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn-primary" style="width: 100%;">Sign Up Now 🚀</button>
+      </form>
+
+      <div id="form-feedback" style="display: none;"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 KidCode Platform. Designed for early STEM learning. | <a href="parent-zone.html">Educator Resources</a></p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
